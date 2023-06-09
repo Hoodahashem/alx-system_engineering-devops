@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x "$pwd"
+chmod 755 "$pwd"
