@@ -1,2 +1,4 @@
 #!/bin/bash
-mkdir /action ; alias PATH='$PATH:/action'
+In two lines, you can add a directory to the end of the PATH like this:
+
+echo 'alias PATH="$PATH:/action"' 
