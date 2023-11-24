@@ -2,7 +2,7 @@
 # gustavo
 
 con=0
-until ((con > 10))
+until ((con > 9))
 do
   echo "Best School"
   ((con++))
