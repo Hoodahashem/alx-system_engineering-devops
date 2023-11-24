@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this gustavo scripting
+
+ps aux
