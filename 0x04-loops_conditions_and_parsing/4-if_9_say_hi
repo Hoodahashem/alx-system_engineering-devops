@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 # gustavo
 
-con=0
-while ((con < 10))
+count=0
+
+while [ $count -lt 10 ]
 do
-	if ((con == 9))
-	then
-		echo "hi"
-	fi
-	echo "Best School"
-	((con++))
+  if [ $count -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( count++ ))
 done
