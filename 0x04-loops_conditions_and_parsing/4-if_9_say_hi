@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# gustavo
+
+con=0
+while ((con < 10))
+do
+	if ((con == 9))
+	then
+		echo "hi"
+	else
+		echo "Best School"
+	fi
+	((con++))
+done
