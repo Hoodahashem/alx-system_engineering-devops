@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # this gustavo scripting
 
-ps aux --foreset
+ps -auxf
