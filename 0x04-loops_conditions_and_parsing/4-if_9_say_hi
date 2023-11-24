@@ -7,8 +7,7 @@ do
 	if ((con == 9))
 	then
 		echo "hi"
-	else
-		echo "Best School"
 	fi
+	echo "Best School"
 	((con++))
 done
