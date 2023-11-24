@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this is gustavo scriptting
+
+ps -auxf | grep "bash"
