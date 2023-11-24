@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# gustavo
 
-for ((x = 0; x < 10; x++))
+for (( i=0; i<10; i++ ))
 do
-	echo "Best School"
+  echo "Best School"
 done
