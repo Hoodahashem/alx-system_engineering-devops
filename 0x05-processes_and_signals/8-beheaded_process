@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this gustavo scripting
+
+pkill -f -SIGKILL 7-highlander
