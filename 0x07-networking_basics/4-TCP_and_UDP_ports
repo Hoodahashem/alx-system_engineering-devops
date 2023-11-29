@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#gustvo scripting
+
+netstat --listening --program
