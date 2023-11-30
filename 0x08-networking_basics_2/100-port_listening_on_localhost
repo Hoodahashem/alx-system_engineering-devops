@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# really is this an advanced task?!!!???
+
+nc -l localhost 98
