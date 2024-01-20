@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh ubuntu@54.88.123.62
