@@ -19,4 +19,4 @@ echo "server {
      index       index.html index.htm;
 }" > /etc/nginx/sites-available/default
 
-sudo service nginx restart
+sudo service nginx start
