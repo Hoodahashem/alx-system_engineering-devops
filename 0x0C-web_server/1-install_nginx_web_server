@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # installs nginx
-# print "Hello World"
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
