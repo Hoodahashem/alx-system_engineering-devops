@@ -4,7 +4,6 @@
 sudo apt-get -y update
 sudo apt-get -y install haproxy
 sudo service haproxy start
-sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.original.cfg
 sudo sh -c 'echo "
 frontend haproxy_balancer
     bind *:80
