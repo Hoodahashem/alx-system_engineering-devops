@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-sudo sed -i 's/8080 default_server/80 default_server/g' /etc/nginx/sites-enabled/default
+#I just replaced the conf with the default one
+mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 sudo service nginx restart
