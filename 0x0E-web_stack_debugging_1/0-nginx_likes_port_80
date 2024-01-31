@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #I just replaced the conf with the default one
-sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
+sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 sudo service nginx restart
