@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#I just replaced the conf with the default one
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default 
-sudo service nginx restart
+cd /etc/nginx/sites-enabled/ || exit;
+rm default;
+ln -s /etc/nginx/sites-available/default default;
+service nginx restart 
