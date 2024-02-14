@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # Create a backup of all databases in a file
 sudo mysqldump -u root -p"$1" --all-databases > backup.sql
 sudo tar -czf $(date +%d-%m-%Y).tar.gz backup.sql
