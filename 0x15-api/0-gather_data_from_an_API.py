@@ -8,13 +8,13 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         id = sys.argv[1]
         request = requests.get("""
-                               https://jsonplaceholder.typicode.com/users/{}
-                               """.format(id)).json()
+                               https://jsonplaceholder.typicode.com/users/{}\
+""".format(id)).json()
         employee_name = request.get("name")
 
         another_one = requests.get("""
                                    https://jsonplaceholder.typicode.com/users/{}/todos
-                                   """.format(id)).json()
+""".format(id)).json()
         false_count = 0
         true_count = 0
         total = 0
