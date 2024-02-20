@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """importing requests and sys module"""
+import csv
 import requests
 import sys
-import csv
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
@@ -31,4 +32,4 @@ if __name__ == "__main__":
         taskwriter = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         for x in another_one:
             taskwriter.writerow([int(id), employee_name,
-                                x["completed"], x["title"] ])
+                                x["completed"], x["title"]])
