@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# gustavo
-
-con=0
-until ((con > 9))
-do
-  echo "Best School"
-  ((con++))
-done
