@@ -21,7 +21,7 @@ location /api/ { proxy_pass http://0.0.0.0:5002; }
 location ~ ^/airbnb-dynamic/number_odd_or_even/(\d+)$ { proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1; }
 location /airbnb-onepage/ { proxy_pass http://0.0.0.0:5000; }
 location /hbnb_static/ {alias /data/web_static/current/;}
-add_header X-Served-By "1086-web-01";
+add_header X-Served-By "435177-web-01";
 	   listen [::]:80 default_server;
 rewrite ^/redirect_me https://www.youtube.com permanent;
 
@@ -51,7 +51,7 @@ location = /custom_404.html { root /usr/share/nginx/html; internal; }
 	 # Add index.php to the list if you are using PHP
 	 index index.html index.htm index.nginx-debian.html;
 
-	 server_name _;
+	 server_name 107.21.43.82;
 
 #	 location / {
 	 	  # First attempt to serve request as file, then
